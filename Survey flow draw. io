@@ -1,0 +1,13 @@
+[Quarterly Recurrence]
+        ↓
+[Send Survey Email]
+        ↓
+[Form Submitted Trigger]
+        ↓
+[Get Response Details]
+        ↓
+[Add to SharePoint List]
+        ↓
+[Send Thank You Email]
+        ↓
+[Power BI Auto Refresh]
