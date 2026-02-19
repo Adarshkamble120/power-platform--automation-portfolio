@@ -57,7 +57,8 @@ Scheduled Cloud Flow (Daily Recurrence)
 
 ### 🖼️ Flow Screenshot
 
-![Birthday Flow](./Screenshots/birthday notification flow.jpg)
+![Birthday_notification_Flow png](https://github.com/user-attachments/assets/645f61cf-8252-4f63-83a0-aa6ef27dc108)
+
 
 ### ✅ Business Impact
 ✔ No manual tracking  
@@ -83,7 +84,8 @@ Scheduled Recurrence Flow
 
 ### 🖼️ Flow Screenshot
 
-![Fraud Flow](./Screenshots/Fraud prevention flow.png)
+<img width="1635" height="341" alt="Fraud_prevention_flow" src="https://github.com/user-attachments/assets/91d38c76-7654-4177-9c18-306cdf688303" />
+)
 
 ### ✅ Business Value
 ✔ Compliance support  
@@ -108,7 +110,8 @@ Quarterly Recurrence Flow
 
 ### 🖼️ Flow Screenshot
 
-![Survey Distribution](./Screenshots/Employe sat survaey sent mail auto flow.png)
+<img width="1622" height="347" alt="Employee_sat_survey_msform_mail" src="https://github.com/user-attachments/assets/675c49d0-0350-496f-afd5-84bd4b27712c" />
+
 
 ### ✅ Business Value
 ✔ Consistent feedback collection  
@@ -135,7 +138,8 @@ When new Microsoft Forms response is submitted
 
 ### 🖼️ Flow Screenshot
 
-![Survey Response Flow](./Screenshots/Employee Satisfaction Response flow.png)
+<img width="1643" height="716" alt="Employee_Satisfaction_Response_flow" src="https://github.com/user-attachments/assets/e5bf55cb-2190-40ca-b77e-a702c3919419" />
+
 
 ### ✅ Business Value
 ✔ Automated data storage  
