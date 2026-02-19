@@ -1,189 +1,220 @@
+<!-- ========================= HEADER ========================= -->
+
 # 🚀 Adarsh Kamble  
-## Power Platform Developer | Automation Engineer  
+### Power Platform Developer | Automation Engineer | Data Analytics Professional  
 
-Welcome to my Power Platform Automation Portfolio.  
-I design and build scalable business automation solutions using Microsoft Power Platform.
-
-With a background in data analytics and workflow optimization, I specialize in transforming manual HR, compliance, and reporting processes into automated, production-ready solutions.
-
----
-
-## 🛠️ Technologies Used
-
-- Microsoft Power Automate
-- Microsoft Power Apps
-- Microsoft SharePoint
-- Microsoft Forms
-- Microsoft Power BI
-- Microsoft Outlook
-- Microsoft Teams
+![Power Platform](https://img.shields.io/badge/Power%20Platform-Expert-742774?style=for-the-badge&logo=Microsoft)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-Workflow%20Automation-0066FF?style=for-the-badge&logo=MicrosoftPowerAutomate)
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Analytics-F2C811?style=for-the-badge&logo=PowerBI)
+![SharePoint](https://img.shields.io/badge/SharePoint-Integration-0078D4?style=for-the-badge&logo=MicrosoftSharePoint)
+![Automation](https://img.shields.io/badge/Automation-Enterprise%20Ready-success?style=for-the-badge)
 
 ---
 
-# 📂 Repository Overview
+## 👨‍💻 About This Repository
 
-This repository contains 5 real-world automation projects:
+Welcome to my **Power Platform Automation Portfolio**.
 
-1. 🎉 Birthday & Work Anniversary Automation  
-2. 🛡️ Fraud Prevention Activities Flow  
-3. 📊 Employee Satisfaction Survey Automation  
-4. 📝 Leave Management Workflow  
-5. 📈 Dashboard Integration & Auto Refresh Automation  
+This repository demonstrates real-world HR, Risk, and Survey automation systems built using Microsoft Power Platform.  
+Each flow is designed with structured logic, scalability, and enterprise-readiness in mind.
+
+I specialize in:
+
+- Workflow Automation
+- SharePoint Data Integration
+- Microsoft Forms Automation
+- Automated Email Notifications
+- Dashboard-Driven Analytics using Power BI
 
 ---
 
-# 🎉 1️⃣ Birthday & Work Anniversary Automation
+# 📂 Automation Projects Overview
 
-### 📌 Business Problem
-Manual tracking of employee birthdays and anniversaries leads to missed celebrations.
+| Project | Type | Business Purpose |
+|----------|------|-----------------|
+| 🎉 Birthday Notification Flow | Scheduled | Employee Engagement |
+| 🛡️ Fraud Prevention Flow | Scheduled Monitoring | Risk Alert System |
+| 📊 Survey Distribution Flow | Quarterly Recurrence | Employee Feedback |
+| 📩 Survey Response Processing | Event Triggered | Data Capture & Analytics |
+
+---
+
+# 🎉 1️⃣ Birthday Notification Automation
+
+### 📌 Business Objective
+Automatically send birthday or anniversary wishes to employees.
 
 ### ⚙️ Flow Type
-Scheduled Cloud Flow (Recurrence)
+Scheduled Cloud Flow (Daily Recurrence)
 
-### 🔄 Flow Logic
-- Weekly recurrence trigger
-- Get employee data from SharePoint
-- Condition check for today's birthday/anniversary
-- Send automated celebration email
-- Optional Teams notification
+### 🛠 How Automation Works (Short Explanation)
 
-### 🖼️ Flow Architecture
-![Birthday Flow](./Screenshots/birthday-flow.png)
+1. Recurrence trigger runs daily  
+2. Fetch employee data from SharePoint  
+3. Loop through each employee  
+4. Check if birthday or anniversary matches today's date  
+5. If yes → Send automated email via Outlook  
 
-### 💡 Impact
-Improves employee engagement with zero HR effort.
+### 🖼️ Flow Screenshot
+
+![Birthday Flow](./Screenshots/birthday notification flow.jpg)
+
+### ✅ Business Impact
+✔ No manual tracking  
+✔ Improved company culture  
+✔ Fully automated celebration system  
 
 ---
 
-# 🛡️ 2️⃣ Fraud Prevention Activities Flow
+# 🛡️ 2️⃣ Fraud Prevention Monitoring Flow
 
-### 📌 Business Problem
-Delayed fraud detection increases operational risk.
+### 📌 Business Objective
+Automated fraud activity monitoring and alert notification.
 
 ### ⚙️ Flow Type
-Scheduled Monitoring Automation
+Scheduled Recurrence Flow
 
-### 🔄 Flow Logic
-- Recurrence trigger
-- Retrieve high-risk records from SharePoint
-- Apply threshold conditions
-- Send alert email to compliance team
-- Escalation logic for unresolved cases
+### 🛠 How Automation Works
 
-### 🖼️ Flow Screenshot
-![Fraud Flow](./Screenshots/fraud-flow.png)
-
-### 💡 Advanced Features
-- Nested conditions
-- Escalation workflow
-- Risk-based filtering
-- Automated notifications
-
----
-
-# 📊 3️⃣ Employee Satisfaction Survey Automation (Quarterly)
-
-### 📌 Business Problem
-Manual feedback collection lacks tracking and analytics.
-
-### 🔄 Part 1 – Quarterly Survey Distribution
-- Recurrence trigger (Every 3 Months)
-- Send survey link via Outlook
-- Survey built using Microsoft Forms
-
-### 🔄 Part 2 – After Form Submission
-- Trigger: When response submitted
-- Get response details
-- Send thank-you email
-- Add data to SharePoint list
-
-### 🔄 Part 3 – Dashboard Integration
-- SharePoint connected to Power BI
-- Dataset auto refresh
-- Dashboard updates automatically
+1. Scheduled trigger runs at defined interval  
+2. Monitors risk activity  
+3. Sends alert email to stakeholders  
+4. Ensures proactive fraud tracking  
 
 ### 🖼️ Flow Screenshot
-![Survey Flow](./Screenshots/survey-flow.png)
 
-### 🖼️ Dashboard Preview
-![Dashboard](./Screenshots/dashboard.png)
+![Fraud Flow](./Screenshots/Fraud prevention flow.png)
 
-### 💡 Business Impact
-Real-time employee sentiment tracking with automated analytics.
+### ✅ Business Value
+✔ Compliance support  
+✔ Risk alert automation  
+✔ Reduced manual monitoring  
 
 ---
 
-# 📝 4️⃣ Leave Management Workflow
+# 📊 3️⃣ Employee Satisfaction Survey – Distribution Flow
 
-### 📌 Business Problem
-Manual leave approvals cause delays and tracking issues.
+### 📌 Business Objective
+Automatically send quarterly survey to employees.
 
-### 🔄 Flow Steps
-- Leave request submission
-- Manager approval
-- Status update in SharePoint
-- Email notifications
-- Dashboard tracking
+### ⚙️ Flow Type
+Quarterly Recurrence Flow
+
+### 🛠 How Automation Works
+
+1. Recurrence trigger (Quarterly)  
+2. Send Microsoft Forms survey link via Outlook  
+3. Ensure structured feedback cycle  
 
 ### 🖼️ Flow Screenshot
-![Leave Flow](./Screenshots/leave-flow.png)
+
+![Survey Distribution](./Screenshots/Employe sat survaey sent mail auto flow.png)
+
+### ✅ Business Value
+✔ Consistent feedback collection  
+✔ Zero manual HR follow-up  
+✔ Structured employee engagement  
 
 ---
 
-# 📈 5️⃣ Dashboard Integration & Auto Refresh
+# 📩 4️⃣ Survey Response Processing Flow
 
-### 📌 Objective
-Ensure real-time visibility of operational data.
+### 📌 Business Objective
+Store survey responses automatically and send acknowledgment.
 
-### ⚙️ Components
-- SharePoint as data source
-- Automated data updates
-- Power BI scheduled refresh
-- Live KPI monitoring
+### ⚙️ Trigger
+When new Microsoft Forms response is submitted
 
-### 🖼️ Dashboard Image
-![Analytics Dashboard](./Screenshots/dashboard-analytics.png)
+### 🛠 How Automation Works
 
----
+1. Trigger when new form response submitted  
+2. Get response details  
+3. Create item in SharePoint list  
+4. Send thank-you email to employee  
+5. Power BI dashboard updates automatically  
 
-# 🏗️ Architecture Overview
+### 🖼️ Flow Screenshot
 
-High-Level Automation Flow:
+![Survey Response Flow](./Screenshots/Employee Satisfaction Response flow.png)
 
-Recurrence Trigger  
-→ Get Data (SharePoint)  
-→ Apply Conditions  
-→ Send Email / Teams Notification  
-→ Update SharePoint  
-→ Refresh Power BI Dashboard  
+### ✅ Business Value
+✔ Automated data storage  
+✔ Real-time dashboard update  
+✔ Structured analytics pipeline  
 
 ---
 
-# 🔍 Technical Skills Demonstrated
+# 🏗️ Enterprise Architecture Diagram (Animated)
 
-### Power Automate
-- Recurrence triggers
-- Condition control
-- Apply to each loops
-- Approval workflows
-- Dynamic expressions
-- Scope & error handling
-- Parallel branches
+> GitHub supports Mermaid diagrams for animated visualization.
 
-### Data & Reporting
-- SharePoint list automation
-- Microsoft Forms integration
-- Power BI dataset refresh
-- Real-time dashboard reporting
+```mermaid
+flowchart LR
+    A[Recurrence Trigger] --> B[Get SharePoint Data]
+    B --> C{Condition Check}
+    C -->|Match| D[Send Email Notification]
+    C -->|No Match| E[End Flow]
+    D --> F[Update SharePoint]
+    F --> G[Power BI Dataset Refresh]
+    G --> H[Dashboard Updated]
+
+    I[Form Submitted Trigger] --> J[Get Response Details]
+    J --> K[Create SharePoint Item]
+    K --> L[Send Thank You Email]
+    L --> G
+```
+
+---
+
+# 📊 Data Flow Architecture (Survey System)
+
+Microsoft Forms  
+⬇  
+Power Automate  
+⬇  
+SharePoint List  
+⬇  
+Power BI Dataset  
+⬇  
+Interactive Dashboard  
+
+---
+
+# 💡 Technical Skills Demonstrated
+
+### 🔹 Power Automate
+- Recurrence triggers  
+- Conditional branching  
+- Apply to each loops  
+- Forms integration  
+- SharePoint automation  
+- Outlook email automation  
+
+### 🔹 Data & Analytics
+- SharePoint structured storage  
+- Power BI integration  
+- Automated refresh  
+- KPI dashboard reporting  
+
+---
+
+# 📈 Business Outcomes Delivered
+
+✔ 100% Automated HR Notifications  
+✔ Structured Employee Feedback System  
+✔ Fraud Monitoring Alert System  
+✔ Real-Time Dashboard Visibility  
+✔ Scalable Enterprise Workflow Design  
 
 ---
 
 # 📬 Contact
 
-📧 Email: your-email@example.com  
-🔗 GitHub: https://github.com/Adarshkamble120  
-🔗 LinkedIn: https://linkedin.com/in/your-linkedin  
+📧 Email: adarshkamble120@gmail.com  
+🔗 GitHub: https://github.com/Adarshkamble120/power-platform--automation-portfolio  
+🔗 LinkedIn: https://www.linkedin.com/in/adarsh-kamble-6a983b224/
 
 ---
 
-⭐ If you find this portfolio valuable, feel free to connect or collaborate.
+⭐ Open to opportunities in  
+Power Platform Developer | Automation Engineer | Data Analyst Roles
